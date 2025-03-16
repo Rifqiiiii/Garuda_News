@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PAS</string>
+    <string name="phone_icon">Phone</string>
+    <string name="email_icon">Email</string>
+    <string name="app_logo">Logo</string>
+    <string name="default_web_client_id">872102975626-7mrp3k4nhao4falggjmhdkqi3dpkpd46.apps.googleusercontent.com</string>
 </resources>

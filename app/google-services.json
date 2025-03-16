@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314295849176",
+    "project_id": "fir-pas-fb86f",
+    "storage_bucket": "fir-pas-fb86f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314295849176:android:f87dab9e5220f78c8c07ad",
+        "android_client_info": {
+          "package_name": "com.example.pas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314295849176-vk3rv3eu53hib8gfllq2kfs2ove2r1gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzwEGOPjpmENtScQpM6fHgLCIzjs566Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314295849176-vk3rv3eu53hib8gfllq2kfs2ove2r1gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
