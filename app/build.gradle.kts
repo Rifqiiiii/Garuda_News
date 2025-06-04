@@ -46,13 +46,20 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.2.0")
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
 
-    // Firebase
+    // Firebase BOM (sudah benar)
     implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
     implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.firebase:firebase-firestore-ktx") // ← Tambahkan ini ✅
+
     // Google Sign-In
     implementation("com.google.android.gms:play-services-auth:20.7.0")
 
+    // AndroidX Activity
+    implementation(libs.androidx.activity)
+
+    // Testing
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

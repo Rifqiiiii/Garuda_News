@@ -49,6 +49,8 @@ class SignInActivity : AppCompatActivity(), View.OnClickListener {
                 val email = binding.inputEmail.text.toString()
                 val password = binding.inputPassword.text.toString()
                 signIn(email, password)
+                val intent = Intent(this, dashboard::class.java)
+                startActivity(intent)
             }
             R.id.tvSignUp -> {
                 // Navigasi ke halaman Sign Up
